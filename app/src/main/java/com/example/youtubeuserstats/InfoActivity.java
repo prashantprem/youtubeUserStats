@@ -21,7 +21,7 @@ import java.util.concurrent.Executors;
 
 public class InfoActivity extends AppCompatActivity {
 
-    String YT_URL = "https://youtube.googleapis.com/youtube/v3/search?type=channel&part=snippet&channelType=any&maxResults=5&q="+MainActivity.str+"&key=AIzaSyAk3W8od0lp8hbiqbTJgn7HWXDyDQA6cSo";
+    String YT_URL = "https://youtube.googleapis.com/youtube/v3/search?type=channel&part=snippet&channelType=any&maxResults=5&q="+MainActivity.str+"&key=[API_Key]";
     private YouTubeAdapter mAdapter;
     List<ChannelDetails> result;
     public static String CID;
