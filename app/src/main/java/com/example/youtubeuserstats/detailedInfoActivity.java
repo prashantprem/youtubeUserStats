@@ -26,7 +26,7 @@ import java.util.concurrent.Executors;
 
 public class detailedInfoActivity extends AppCompatActivity {
 
-    String detailed_YT_URL =  "https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id="+InfoActivity.CID+"&key=AIzaSyAk3W8od0lp8hbiqbTJgn7HWXDyDQA6cSo";
+    String detailed_YT_URL =  "https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id="+InfoActivity.CID+"&key=[API_KEY]";
     String jsonResponse = null;
     private int mSubCount;
     private int mVideoCount;
